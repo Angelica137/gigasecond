@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 bd, bc, be = 2000, 1, 1
 
 birthday = datetime(bd, bc, be)
-gs = timedelta(seconds=+1)
+gs = timedelta(seconds=+ (10**9))
 
 
 def add_gs(birthday: datetime) -> datetime:
